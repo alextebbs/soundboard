@@ -1,0 +1,39 @@
+{
+  "messages": [
+    {
+      "name" : "Vintage Cubano",
+      "speaker" : "Eli",
+      "file" : "vintage-cubano",
+      "tags" : [ "magic", "eli", "cubano" ],
+      "key" : "A"
+    },
+    {
+      "name" : "Word",
+      "speaker" : "Levi",
+      "file" : "word",
+      "tags" : [ "levi" ],
+      "key" : "B"
+    },
+    {
+      "name" : "Where are we at with the fourth step?",
+      "speaker" : "David",
+      "file" : "where-are-we-at",
+      "tags" : [ "david", "shiplet-ian" ],
+      "key" : "C"
+    },
+    {
+      "name" : "Combo",
+      "speaker" : "Aaron",
+      "file" : "combo",
+      "tags" : [ "aron", "magic" ],
+      "key" : "C"
+    },
+    {
+      "name" : "Tantra",
+      "speaker" : "Brady",
+      "file" : "tantra",
+      "tags" : [ "brady" ],
+      "key" : "C"
+    }
+  ]
+}

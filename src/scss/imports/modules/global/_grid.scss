@@ -1,0 +1,23 @@
+.grid-default {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: bl(1);
+
+  .grid-example-item {
+    min-height: 150px;
+    background: #eee;
+    grid-column: span 2;
+  }
+}
+
+.grid-row-span-2 {
+  grid-row: span 2;
+}
+
+.grid-row-span-3 {
+  grid-row: span 3;
+}
+
+.grid-row-span-4 {
+  grid-row: span 4;
+}

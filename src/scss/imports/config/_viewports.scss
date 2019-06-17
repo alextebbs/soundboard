@@ -1,0 +1,39 @@
+// Shorthand mixins
+@mixin below($viewport) {
+  @media (max-width: $viewport) {
+    @content;
+  }
+}
+
+@mixin above($viewport) {
+  @media (min-width: $viewport + 1px) {
+    @content;
+  }
+}
+
+@mixin between($viewport-one, $viewport-two) {
+  @media (min-width: $viewport-one + 1px) and (max-width: $viewport-two) {
+    @content;
+  }
+}
+
+// viewports (change as needed)
+
+// You may also consider definining these values based off the $baseline or
+// $font-size variables. If you allow viewports to be defined using units
+// other than px you will need to update the mixins above.
+
+$viewports: (
+  largest: 1840px,
+  larger: 1340px,
+  large: 1024px,
+  medium: 860px,
+  small: 670px,
+  smaller: 460px,
+  smallest: 368px,
+) !global;
+
+// Shorthand function
+@function v($key) {
+  @return map-get($viewports, $key);
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    @include("head.html")
+  </head>
+  <body class='theme-dark'>
+    <div class='block-wrap'>
+      <div class='block-inner'>
+        <div class='text-container'>
+          <h1 class='mb-3'>Sounds</h1>
+        </div>
+
+        <div class='button-row'>
+          <div id='target'>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <script id="template" type="text/ractive">
+      {{#each messages }}
+        <button data-file='{{file}}' data-speaker='{{speaker}}' class='button'>
+          {{name}} - {{speaker}}
+        </button>
+      {{/each}}
+    </script>
+
+    <script src="/assets/js/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.column-row {
+  @include make-columns;
+  @include set-gutters;
+}
+
+.column-row.no-gutter {
+  @include set-gutters(0);
+}
+
+.column-row.less-gutter {
+  @include set-gutters($gutter-width / 2);
+}
+
+.column-row.more-gutter {
+  @include set-gutters($gutter-width * 1.5);
+}
+
+.column-row.max-gutter {
+  @include set-gutters($gutter-width * 2);
+}
+
+.column-row.flex-row {
+  display: flex;
+  align-items: center;
+}
+
+@supports(display: grid) {
+  .column-row.grid-row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: bl(1);
+    grid-row-gap: bl(1);
+    margin-left: 0px;
+    margin-right: 0px;
+
+    &.no-gutter {
+      grid-column-gap: bl(0);
+    }
+
+    &.less-gutter {
+      grid-column-gap: bl(0.5);
+    }
+
+    &.more-gutter {
+      grid-column-gap: bl(1.5);
+    }
+
+    &.max-gutter {
+      grid-column-gap: bl(2);
+    }
+
+    & > .column {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+}
+
+@include below(v('small')) {
+  .one-third,
+  .one-half,
+  .one-fourth,
+  .three-fourths,
+  .two-thirds {
+    width: auto;
+    float: none;
+
+    &:not(:last-child) {
+      margin-bottom: $bl;
+    }
+  }
+
+  // .one-fourth {
+  //   width: 50%;
+
+  //   &:not(:last-child) {
+  //     margin-bottom: $bl;
+  //   }
+  // }
+}
+
+// @include below(v('smaller')) {
+//   .one-fourth {
+//     width: auto;
+//     float: none;
+
+//     &:not(:last-child) {
+//       margin-bottom: $bl;
+//     }
+//   }
+// }
+
+$margin-padding-prefixes: (
+  'ml':'margin-left',
+  'mr':'margin-right',
+  'mt':'margin-top',
+  'mb':'margin-bottom',
+  'pl':'padding-left',
+  'pr':'padding-right',
+  'pt':'padding-top',
+  'pb':'padding-bottom',
+  'p':'padding',
+  'm':'margin',
+);
+
+$margin-padding-increments: (
+  '0': 0,
+  '0_25': 0.25,
+  '0_5':  0.5,
+  '0_75': 0.75,
+  '1':    1,
+  '1_25': 1.25,
+  '1_5':  1.5,
+  '1_75': 1.75,
+  '2':    2,
+  '2_25': 2.25,
+  '2_5':  2.5,
+  '2_75': 2.75,
+  '3':    3
+);
+
+@each $prefix, $full in $margin-padding-prefixes {
+  @each $inc-prefix, $val in $margin-padding-increments {
+    .#{$prefix}-#{$inc-prefix} {
+      #{$full}: bl($val) !important;
+    }
+  }
+}

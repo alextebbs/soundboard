@@ -1,0 +1,107 @@
+:root {
+  --translateZ: 0;
+}
+
+.viewport {
+  bottom:0;
+  left:0;
+  overflow:hidden;
+  perspective:400;
+  position:absolute;
+  right:0;
+  top:0;
+  perspective:400px;
+  background: map-get($palette-eas, 'dark-blue');
+}
+
+.plane {
+  --rotateX: 0;
+  --rotateY: 0;
+  transform-style: preserve-3d;
+  transform: rotateX(calc(var(--rotateX) * 1deg)) rotateY(calc(var(--rotateY) * 1deg));
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 260px;
+  width: 400px;
+  margin-left: -200px;
+  margin-top: -130px;
+  background: map-get($palette-eas, 'red');
+  border-radius: 6px;
+  background-image: linear-gradient(to bottom left, 
+    map-get($palette-eas, 'red') 0%,
+    map-get($palette-eas, 'red') 50%,
+    darken(map-get($palette-eas, 'red'), 10%) 50%,
+    darken(map-get($palette-eas, 'red'), 10%) 100%
+  );
+
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+
+    &.one {
+      height: 72px;
+      width: 72px;
+      top: -12px;
+      left: 48px;
+      transform: translateZ(calc(1.2px * (var(--translateZ) + 20)));
+      background: map-get($palette-eas, 'purple');
+    }
+
+    &.two {
+      height: 64px;
+      width: 64px;
+      top: 36px;
+      left: 12px;
+      transform: translateZ(calc(1.4px * (var(--translateZ) + 40)));
+      background: map-get($palette-eas, 'blue');
+    }
+
+    &.three {
+      height: 48px;
+      width: 48px;
+      top: 48px;
+      right: 48px;
+      transform: translateZ(calc(1.6px * (var(--translateZ) + 60)));
+      background: map-get($palette-eas, 'green');
+    }
+  }
+}
+
+.panel {
+  transform: translateZ(calc(1.6px * (var(--translateZ) + 60)));
+  position: absolute;
+  top: 48px;
+  left: 72px;
+  right: 72px;
+  bottom: 48px;
+  font-family: sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+  color: map-get($palette-eas, 'blue');
+
+  h1 {
+    font-size: 32px;
+    line-height: 32px;
+    color: #fff;
+    margin-bottom: 12px;
+    font-weight: bold;
+  }
+
+  p {
+    margin-bottom: 12px;
+    color: #fff;
+  }
+
+  a {
+    color: map-get($palette-eas, 'blue');
+    border-bottom: 2px solid transparent;
+
+    &:hover {
+      border-bottom: 2px solid map-get($palette-eas, 'blue');
+    }
+  }
+}

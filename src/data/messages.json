@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "name" : "Vintage Cubano",
+      "speaker" : "Eli",
+      "file" : "vintage-cubano",
+      "tags" : [ "magic", "eli", "cubano" ]
+    },
+    {
+      "name" : "Vintage Cubano",
+      "speaker" : "Eli",
+      "file" : "vintage-cubano",
+      "tags" : [ "magic", "eli", "cubano" ]
+    }
+  ]
+}
