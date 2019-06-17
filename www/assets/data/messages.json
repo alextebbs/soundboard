@@ -3,35 +3,56 @@
     {
       "name" : "Vintage Cubano",
       "speaker" : "Eli",
-      "file" : "vintage-cubano",
+      "file" : "eli/vintage-cubano",
       "tags" : [ "magic", "eli", "cubano" ],
       "key" : "A"
     },
     {
       "name" : "Word",
       "speaker" : "Levi",
-      "file" : "word",
+      "file" : "levi/word",
       "tags" : [ "levi" ],
       "key" : "B"
     },
     {
-      "name" : "Where are we at with the fourth step?",
+      "name" : "Where are we at with the 4th step?",
       "speaker" : "David",
-      "file" : "where-are-we-at",
+      "file" : "shiplet-ian/where-are-we-at",
       "tags" : [ "david", "shiplet-ian" ],
       "key" : "C"
     },
     {
       "name" : "Combo",
       "speaker" : "Aaron",
-      "file" : "combo",
+      "file" : "aaron/combo",
       "tags" : [ "aron", "magic" ],
       "key" : "C"
     },
     {
       "name" : "Tantra",
       "speaker" : "Brady",
-      "file" : "tantra",
+      "file" : "brady/tantra",
+      "tags" : [ "brady" ],
+      "key" : "C"
+    },
+    {
+      "name" : "HANG",
+      "speaker" : "Brady",
+      "file" : "brady/hang",
+      "tags" : [ "brady" ],
+      "key" : "C"
+    },
+    {
+      "name" : "HONG",
+      "speaker" : "Brady",
+      "file" : "brady/hong",
+      "tags" : [ "brady" ],
+      "key" : "C"
+    },
+    {
+      "name" : "HANG/HONG",
+      "speaker" : "Brady",
+      "file" : "brady/hang-hong-honk",
       "tags" : [ "brady" ],
       "key" : "C"
     }
