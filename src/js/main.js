@@ -25,7 +25,7 @@ loadJSON(function(response) {
 
   for (var i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener('click', function() {
-      var audio = new Audio('/assets/sounds/'+this.dataset.speaker+'/'+this.dataset.file+'.m4a');
+      var audio = new Audio('/assets/sounds/'+this.dataset.file+'.m4a');
       audio.play();
     });
   }

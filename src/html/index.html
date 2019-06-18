@@ -4,24 +4,21 @@
     @include("head.html")
   </head>
   <body class='theme-dark'>
-    <div class='block-wrap'>
-      <div class='block-inner'>
-        <div class='text-container'>
-          <h1 class='mb-3'>Sounds</h1>
-        </div>
 
-        <div class='button-row'>
-          <div id='target'>
-          </div>
-        </div>
-
+    <div class='sound-list'>
+      <div id='target'>
       </div>
     </div>
 
     <script id="template" type="text/ractive">
       {{#each messages }}
         <button data-file='{{file}}' data-speaker='{{speaker}}' class='button'>
-          {{name}} - {{speaker}}
+          <div class='avatar' style="background-image: url(assets/img/{{speaker}}.jpg)"></div>
+          <div class='bubble-wrap'>
+            <div class="bubble">
+              {{name}}
+            </div>
+          </div>
         </button>
       {{/each}}
     </script>
