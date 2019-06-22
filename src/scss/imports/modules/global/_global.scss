@@ -1,4 +1,5 @@
 $bubble-height: 34px;
+$bubble-color: #E6E5EB;
 
 body {
   background: #fff;
@@ -6,8 +7,58 @@ body {
   touch-action: manipulation;
 }
 
-.sound-list {
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 82px;
+  background: white(0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid black(0.1);
+  box-shadow: inset 0px -1px 0px white(0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+
+  .header-text {
+    color: #222;
+    font-size: 11px;
+  }
+
+  .avatar-list {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    left: -13px;
+  }
+
+  .avatar-wrap {
+    width: 10px;
+    position: relative;
+    height: 38px;
+  }
+
+  .avatar {
+    height: 38px;
+    width: 38px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    background-size: cover;
+    border: 2px solid #fff;
+  }
+}
+
+.message-list {
   margin-top: 12px;
+  max-width: 375px;
+  margin: 0px auto;
+  margin-top: 82px;
+  padding-top: 10px;
 
   button {
     background: transparent;
@@ -19,17 +70,16 @@ body {
     margin-left: 12px;
     margin-right: 12px;
     margin-bottom: 10px;
-    padding-left: 33px;
+    padding-left: 34px;
     width: 100%;
 
     .bubble {
-      background: #E6E5EB;
-      color: #000;
+      background: $bubble-color;
+      color: #111;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
       font-weight: 400;
       border-radius: 16px;
       font-size: 15px;
-      padding: 12px;
       padding-top: 7px;
       padding-bottom: 7px;
       padding-left: 12px;
@@ -74,23 +124,50 @@ body {
 
     &:hover {
       .bubble {
-        background: darken(#E6E5EB, 2.5%);
+        background: darken($bubble-color, 2.5%);
       }
 
       .bubble-wrap:before {
-        background: darken(#E6E5EB, 2.5%);
+        background: darken($bubble-color, 2.5%);
       }
     }
 
     .bubble-wrap {
       position: relative;
 
+      &:before,
+      &:after {
+        content: '';
+        position: absolute;
+      }
+
+      &:before {
+        z-index: 2;
+        bottom: 1px;
+        left: -7px;
+        height: $bubble-height / 2;
+        border-left: ($bubble-height / 2) solid $bubble-color;
+        border-bottom-right-radius: 14px 8px;
+      }
+
+
+      &:after {
+        z-index: 3;
+        bottom: 1px;
+        left: bl(-1);
+        width: bl(1);
+        height: $bubble-height / 2;
+        background: white;
+        border-bottom-right-radius: 7px;
+      }
+
+      /*
       &:before {
         content: '';
         position: absolute;
         height: 20px;
         width: 28px;
-        background: #E6E5EB;
+        background: $bubble-color;
         right: calc(100% - 12px);
         bottom: 0px;
         z-index: 3;
@@ -110,6 +187,7 @@ body {
         border-radius: 11px;
         border-top-right-radius: 0px;
       }
+      */
     }
 
     .avatar {
@@ -123,7 +201,6 @@ body {
       background: #555;
       background-size: contain;
       z-index: 10;
-
     }
   }
 }

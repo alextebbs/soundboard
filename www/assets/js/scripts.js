@@ -31,23 +31,3 @@ loadJSON(function(response) {
   }
 });
 
-// var xhr = new XMLHttpRequest(),
-//     method = "GET",
-//     url = "/assets/data/gods.json",
-//     data = '';
-
-// xhr.overrideMimeType("application/json");
-// xhr.open(method, url, true);
-// xhr.onreadystatechange = function () {
-//   if(xhr.readyState === 4 && xhr.status === 200) {
-//     data = JSON.parse(xhr.responseText);
-//   }
-// };
-// xhr.send();
-
-// var ractive = Ractive({
-//   target: '#target',
-//   template: '#template',
-//   data: data
-// });
-

@@ -1,16 +1,200 @@
 {
   "messages": [
     {
-      "name" : "Vintage Cubano",
+      "name" : "Combo",
+      "speaker" : "Aaron",
+      "file" : "aaron/combo",
+      "tags" : [ "aron", "magic" ],
+      "key" : "C"
+    },
+    {
+      "name" : "Hang",
+      "speaker" : "Brady",
+      "file" : "brady/hang",
+      "tags" : [ "brady" ],
+      "key" : "C"
+    },
+    {
+      "name" : "Hong",
+      "speaker" : "Brady",
+      "file" : "brady/hong",
+      "tags" : [ "brady" ],
+      "key" : "C"
+    },
+    {
+      "name" : "Honk",
+      "speaker" : "Brady",
+      "file" : "brady/honk",
+      "tags" : [ "brady" ],
+      "key" : "C"
+    },
+    {
+      "name" : "Hang Hong Honk",
+      "speaker" : "Brady",
+      "file" : "brady/hang-hong-honk",
+      "tags" : [ "brady" ],
+      "key" : "C"
+    },
+    {
+      "name" : "Helium Ship 1",
+      "speaker" : "Aaron",
+      "file" : "aaron/helium-ship-1",
+      "tags" : [ "aron" ],
+      "key" : "C"
+    },
+    {
+      "name" : "Helium Ship 2",
+      "speaker" : "Aaron",
+      "file" : "aaron/helium-ship-2",
+      "tags" : [ "aron" ],
+      "key" : "C"
+    },
+    {
+      "name" : "Loved them all 1",
+      "speaker" : "David",
+      "file" : "david/i-loved-em-all",
+      "tags" : [ "david" ],
+      "key" : "C"
+    },
+    {
+      "name" : "Loved them all 2",
+      "speaker" : "David",
+      "file" : "david/loved-em-all-still-love-em",
+      "tags" : [ "david" ],
+      "key" : "C"
+    },
+    {
+      "name" : "Iced mocha",
+      "speaker" : "David",
+      "file" : "david/iced-mocha",
+      "tags" : [ "david" ],
+      "key" : "C"
+    },
+    {
+      "name" : "Where are we at with the 4th step?",
+      "speaker" : "David",
+      "file" : "shiplet-ian/where-are-we-at",
+      "tags" : [ "david", "shiplet-ian" ],
+      "key" : "C"
+    },
+    {
+      "name" : "Summer Shiplet",
+      "speaker" : "David",
+      "file" : "shiplet-ian/summer-shiplet",
+      "tags" : [ "david", "shiplet-ian" ],
+      "key" : "C"
+    },
+    {
+      "name" : "God brought Shiplet Ian into our lives.",
+      "speaker" : "Brady",
+      "file" : "shiplet-ian/shiplet-ian-blessed",
+      "tags" : [ "brady", "shiplet-ian" ],
+      "key" : "C"
+    },
+    {
+      "name" : "Let's fucking get him.",
+      "speaker" : "David",
+      "file" : "shiplet-ian/lets-fucking-get-him",
+      "tags" : [ "David", "shiplet-ian" ],
+      "key" : "C"
+    },
+    {
+      "name" : "We're going to a meeting.",
+      "speaker" : "Brady",
+      "file" : "shiplet-ian/ian-were-going-to-a-meeting",
+      "tags" : [ "brady", "shiplet-ian" ],
+      "key" : "C"
+    },
+    {
+      "name" : "MMm yeah.",
+      "speaker" : "Ian",
+      "file" : "ian/mmmm",
+      "tags" : [ "ian" ],
+      "key" : "C"
+    },
+    {
+      "name" : "I love my boys.",
+      "speaker" : "Ian",
+      "file" : "ian/i-love-my-boys",
+      "tags" : [ "ian" ],
+      "key" : "C"
+    },
+    {
+      "name" : "I want the best for my boys.",
+      "speaker" : "Aaron",
+      "file" : "aaron/i-want-the-best-for-my-boys",
+      "tags" : [ "aaron" ],
+      "key" : "C"
+    },
+    {
+      "name" : "*Demonic laughter*",
       "speaker" : "Eli",
-      "file" : "vintage-cubano",
-      "tags" : [ "magic", "eli", "cubano" ]
+      "file" : "eli/eli-laugh",
+      "tags" : [ "eli" ],
+      "key" : "C"
+    },
+    {
+      "name" : "*Magic laugh*",
+      "speaker" : "Eli",
+      "file" : "eli/play-some-magic",
+      "tags" : [ "eli" ],
+      "key" : "C"
     },
     {
       "name" : "Vintage Cubano",
       "speaker" : "Eli",
-      "file" : "vintage-cubano",
-      "tags" : [ "magic", "eli", "cubano" ]
+      "file" : "eli/vintage-cubano",
+      "tags" : [ "magic", "eli", "cubano" ],
+      "key" : "A"
+    },
+    {
+      "name" : "I'm pretty fucked off.",
+      "speaker" : "Brady",
+      "file" : "brady/pretty-fucked-off",
+      "tags" : [ "brady" ],
+      "key" : "C"
+    },
+    {
+      "name" : "Fuck me.",
+      "speaker" : "Brady",
+      "file" : "brady/fuck-me",
+      "tags" : [ "brady" ],
+      "key" : "C"
+    },
+    {
+      "name" : "Good ol' fashioned",
+      "speaker" : "Brady",
+      "file" : "brady/pussy-fuckin",
+      "tags" : [ "brady" ],
+      "key" : "C"
+    },
+    {
+      "name" : "Tebbo!",
+      "speaker" : "David",
+      "file" : "david/tebbo",
+      "tags" : [ "david" ],
+      "key" : "C"
+    },
+    {
+      "name" : "Really on a zoot.",
+      "speaker" : "David",
+      "file" : "david/really-on-a-zoot",
+      "tags" : [ "david" ],
+      "key" : "C"
+    },
+    {
+      "name" : "Scream",
+      "speaker" : "David",
+      "file" : "david/scream",
+      "tags" : [ "david" ],
+      "key" : "C"
+    },
+    {
+      "name" : "Word",
+      "speaker" : "Levi",
+      "file" : "levi/word",
+      "tags" : [ "levi" ],
+      "key" : "B"
     }
   ]
 }

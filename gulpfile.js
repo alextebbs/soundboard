@@ -34,6 +34,8 @@ function watch() {
     gulp.watch("src/js/**/*.js", ['do_js']).on('change',  browserSync.reload);
     gulp.watch("src/img/**/*", ['do_images']).on('change',  browserSync.reload);
     gulp.watch("src/fonts/**/*", ['do_fonts']).on('change',  browserSync.reload);
+    gulp.watch("src/data/**/*", ['do_data']).on('change',  browserSync.reload);
+    gulp.watch("src/sounds/**/*", ['do_sounds']).on('change',  browserSync.reload);
 }
 
 // Static server
@@ -54,8 +56,9 @@ gulp.task('bsreload', function(cb) {
 });
 
 gulp.task('build', function(cb){
-    runSequence('do_js','do_images','do_html', 'do_sass', 'do_fonts', cb)
+    runSequence('do_js','do_images','do_html', 'do_sass', 'do_fonts', 'do_sounds', 'do_data', cb)
 });
+
 gulp.task('run', function(cb){
     runSequence('build', 'browser-sync', cb)
 });

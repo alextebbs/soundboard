@@ -164,7 +164,7 @@ $default-grey-palette: $neutral-greys;
 }
 
 @function black($opacity) { @return rgba(grey(0),$opacity)       }
-@function white($opacity) { @return rgba(grey(9),$opacity) }
+@function white($opacity) { @return rgba(#fff,$opacity) }
 
 // --------------------------------------------------------------------------
 // Custom Colors
