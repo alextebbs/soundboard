@@ -45,6 +45,16 @@
             </div>
           </button>
         {{/if}}
+        {{#if type == 'text' }}
+          <div class='button text'>
+            <div class='avatar' style="background-image: url(assets/img/{{speaker}}.jpg)"></div>
+            <div class='bubble-wrap'>
+              <div class="bubble">
+                {{ content }}
+              </div>
+            </div>
+          </div>
+        {{/if}}
         {{#if type == 'photo' }}
           <div class='photo-message'>
             <img src="assets/img/photo-messages/{{file}}.jpg" />

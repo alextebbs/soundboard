@@ -60,7 +60,7 @@ body {
   margin-top: 82px;
   padding-top: 10px;
 
-  button {
+  .button {
     background: transparent;
     border: none;
     display: block;
@@ -72,6 +72,16 @@ body {
     margin-bottom: 10px;
     padding-left: 34px;
     width: 100%;
+
+    &.text {
+      .bubble {
+        padding-left: 12px;
+
+      }
+      .bubble:before, .bubble:after {
+        display: none;
+      }
+    }
 
     .bubble {
       background: $bubble-color;

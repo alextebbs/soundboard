@@ -3,10 +3,15 @@
     {
       "type" : "audio",
       "name" : "Combo",
-      "speaker" : "Aaron",
-      "file" : "aaron/combo",
-      "tags" : [ "aron", "magic" ],
+      "speaker" : "AAron",
+      "file" : "aAron/combo",
+      "tags" : [ "Aron", "magic" ],
       "key" : "C"
+    },
+    {
+      "type" : "photo",
+      "file" : "honk-prayer",
+      "tags" : [ "aAron" ]
     },
     {
       "type" : "audio",
@@ -43,17 +48,33 @@
     {
       "type" : "audio",
       "name" : "Helium Ship 1",
-      "speaker" : "Aaron",
-      "file" : "aaron/helium-ship-1",
-      "tags" : [ "aron" ],
+      "speaker" : "AAron",
+      "file" : "aAron/helium-ship-1",
+      "tags" : [ "Aron" ],
       "key" : "C"
     },
     {
       "type" : "audio",
       "name" : "Helium Ship 2",
-      "speaker" : "Aaron",
-      "file" : "aaron/helium-ship-2",
-      "tags" : [ "aron" ],
+      "speaker" : "AAron",
+      "file" : "aAron/helium-ship-2",
+      "tags" : [ "Aron" ],
+      "key" : "C"
+    },
+    {
+      "type" : "audio",
+      "name" : "Deformed Ship",
+      "speaker" : "AAron",
+      "file" : "aAron/deformed-ship",
+      "tags" : [ "aAron" ],
+      "key" : "C"
+    },
+    {
+      "type" : "audio",
+      "name" : "Massacre Girl",
+      "speaker" : "AAron",
+      "file" : "aAron/massacre-girl",
+      "tags" : [ "aAron" ],
       "key" : "C"
     },
     {
@@ -74,11 +95,32 @@
     },
     {
       "type" : "audio",
+      "name" : "A tip can dream",
+      "speaker" : "tip",
+      "file" : "a-tip-can-dream",
+      "tags" : [ "tip" ],
+      "key" : "C"
+    },
+    {
+      "type" : "photo",
+      "file" : "iced-mocha",
+      "tags" : [ "levi" ]
+    },
+    {
+      "type" : "audio",
       "name" : "Iced mocha",
       "speaker" : "David",
       "file" : "david/iced-mocha",
       "tags" : [ "david" ],
       "key" : "C"
+    },
+    {
+      "type" : "audio",
+      "name" : "Word",
+      "speaker" : "Levi",
+      "file" : "levi/word",
+      "tags" : [ "levi" ],
+      "key" : "B"
     },
     {
       "type" : "photo",
@@ -90,6 +132,14 @@
       "name" : "Where are we at with the 4th step?",
       "speaker" : "David",
       "file" : "shiplet-ian/where-are-we-at",
+      "tags" : [ "david", "shiplet-ian" ],
+      "key" : "C"
+    },
+    {
+      "type" : "audio",
+      "name" : "4th step 2",
+      "speaker" : "Kid",
+      "file" : "shiplet-ian/shiplen-ian",
       "tags" : [ "david", "shiplet-ian" ],
       "key" : "C"
     },
@@ -126,6 +176,16 @@
       "key" : "C"
     },
     {
+      "type" : "photo",
+      "file" : "ian-collage",
+      "tags" : [ "ian" ]
+    },
+    {
+      "type" : "text",
+      "content" : "In that moment those two women were Christopher for me. Taking me in as a stranger, immediately accepting me and loving me. Listening to me, sharing with me. Incredible.",
+      "speaker" : "ian"
+    },
+    {
       "type" : "audio",
       "name" : "MMm yeah.",
       "speaker" : "Ian",
@@ -143,15 +203,71 @@
     },
     {
       "type" : "audio",
-      "name" : "I want the best for my boys.",
-      "speaker" : "Aaron",
-      "file" : "aaron/i-want-the-best-for-my-boys",
-      "tags" : [ "aaron" ],
+      "name" : "Really excited",
+      "speaker" : "Ian",
+      "file" : "ian/excited-to-see-my-boys",
+      "tags" : [ "ian" ],
       "key" : "C"
     },
     {
       "type" : "audio",
-      "name" : "*Demonic laughter*",
+      "name" : "Absolutely sober",
+      "speaker" : "Ian",
+      "file" : "ian/i-am-absolutely-sober",
+      "tags" : [ "ian" ],
+      "key" : "C"
+    },
+    {
+      "type" : "audio",
+      "name" : "Real man",
+      "speaker" : "Ian",
+      "file" : "ian/i-am-a-real-man",
+      "tags" : [ "ian" ],
+      "key" : "C"
+    },
+    {
+      "type" : "audio",
+      "name" : "Going west",
+      "speaker" : "Ian",
+      "file" : "ian/going-west",
+      "tags" : [ "ian" ],
+      "key" : "C"
+    },
+    {
+      "type" : "audio",
+      "name" : "Seattle bound",
+      "speaker" : "Ian",
+      "file" : "ian/seattle-bound",
+      "tags" : [ "ian" ],
+      "key" : "C"
+    },
+    {
+      "type" : "audio",
+      "name" : "Rippers",
+      "speaker" : "Ian",
+      "file" : "ian/rippers",
+      "tags" : [ "ian" ],
+      "key" : "C"
+    },
+    {
+      "type" : "audio",
+      "name" : "I want the best for my boys.",
+      "speaker" : "AAron",
+      "file" : "aAron/i-want-the-best-for-my-boys",
+      "tags" : [ "aAron" ],
+      "key" : "C"
+    },
+    {
+      "type" : "audio",
+      "name" : "Hygeine",
+      "speaker" : "aAron",
+      "file" : "aAron/hygeine",
+      "tags" : [ "brady" ],
+      "key" : "C"
+    },
+    {
+      "type" : "audio",
+      "name" : "Demonic laughter",
       "speaker" : "Eli",
       "file" : "eli/eli-laugh",
       "tags" : [ "eli" ],
@@ -159,19 +275,19 @@
     },
     {
       "type" : "audio",
-      "name" : "*Magic laugh*",
-      "speaker" : "Eli",
-      "file" : "eli/play-some-magic",
-      "tags" : [ "eli" ],
+      "name" : "Honk Laugh",
+      "speaker" : "aAron",
+      "file" : "aAron/honk-laugh",
+      "tags" : [ "aAron" ],
       "key" : "C"
     },
     {
       "type" : "audio",
-      "name" : "Vintage Cubano",
+      "name" : "Magic laugh",
       "speaker" : "Eli",
-      "file" : "eli/vintage-cubano",
-      "tags" : [ "magic", "eli", "cubano" ],
-      "key" : "A"
+      "file" : "eli/play-some-magic",
+      "tags" : [ "eli" ],
+      "key" : "C"
     },
     {
       "type" : "audio",
@@ -199,6 +315,27 @@
     },
     {
       "type" : "audio",
+      "name" : "Official direction 1",
+      "speaker" : "Brady",
+      "file" : "brady/official-direction-1",
+      "tags" : [ "brady" ],
+      "key" : "C"
+    },
+    {
+      "type" : "audio",
+      "name" : "Official direction 2",
+      "speaker" : "Brady",
+      "file" : "brady/official-direction-2",
+      "tags" : [ "brady" ],
+      "key" : "C"
+    },
+    {
+      "type" : "text",
+      "content" : "A show 👀 and tell 🗣 player 😈 played 🎮 it against ⚔️ me 👦🏼 trying to simply bar ⛓ me 👦🏼 from casting 🧙🏻‍♂️ past 🕗 in flames 🔥 and I had sideboarded 🏂 in a telemin 📞 performance 3💧💧🎻 to take 🙊 his emrakul 🦑 so he 😈 unknowingly 🙃 just blanked 😶 me 👦🏼 it was so f 🍆 brutal 🤧",
+      "speaker" : "Brady"
+    },
+    {
+      "type" : "audio",
       "name" : "Tebbo!",
       "speaker" : "David",
       "file" : "david/tebbo",
@@ -210,6 +347,14 @@
       "name" : "Really on a zoot.",
       "speaker" : "David",
       "file" : "david/really-on-a-zoot",
+      "tags" : [ "david" ],
+      "key" : "C"
+    },
+    {
+      "type" : "audio",
+      "name" : "I can see the light",
+      "speaker" : "David",
+      "file" : "david/i-can-see-the-light",
       "tags" : [ "david" ],
       "key" : "C"
     },
@@ -228,16 +373,56 @@
     },
     {
       "type" : "audio",
-      "name" : "Word",
-      "speaker" : "Levi",
-      "file" : "levi/word",
-      "tags" : [ "levi" ],
-      "key" : "B"
+      "name" : "Towards the kingdom",
+      "speaker" : "patrick",
+      "file" : "patrick/towards-the-kingdom",
+      "tags" : [ "patrick" ],
+      "key" : "C"
     },
     {
       "type" : "photo",
-      "file" : "casino",
-      "tags" : [ "patrick" ]
+      "file" : "eli-relaxed",
+      "tags" : [ "eli" ]
+    },
+    {
+      "type" : "audio",
+      "name" : "Fresh Sebs",
+      "speaker" : "eli",
+      "file" : "eli/fresh-seb-in-the-chat",
+      "tags" : [ "eli" ],
+      "key" : "C"
+    },
+    {
+      "type" : "audio",
+      "name" : "Yarmulke",
+      "speaker" : "eli",
+      "file" : "eli/yamaka",
+      "tags" : [ "eli" ],
+      "key" : "C"
+    },
+    {
+      "type" : "audio",
+      "name" : "Ship",
+      "speaker" : "eli",
+      "file" : "eli/shippin-it-eli",
+      "tags" : [ "eli" ],
+      "key" : "C"
+    },
+    {
+      "type" : "audio",
+      "name" : "Vintage Cubano",
+      "speaker" : "Eli",
+      "file" : "eli/vintage-cubano",
+      "tags" : [ "magic", "eli", "cubano" ],
+      "key" : "A"
+    },
+    {
+      "type" : "audio",
+      "name" : "Thank you",
+      "speaker" : "aussie",
+      "file" : "aussie/thank-you",
+      "tags" : [ "aussie" ],
+      "key" : "C"
     }
   ]
 }
