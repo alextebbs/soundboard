@@ -10,9 +10,7 @@
 <script src="https://cdn.jsdelivr.net/npm/ractive"></script>
 
   </head>
-
   <body>
-
     <div class='header'>
       <div class='avatar-list'>
         <div class='avatar-wrap'>
@@ -44,14 +42,21 @@
 
     <script id="template" type="text/ractive">
       {{#each messages }}
-        <button data-file='{{file}}' data-speaker='{{speaker}}' class='button'>
-          <div class='avatar' style="background-image: url(assets/img/{{speaker}}.jpg)"></div>
-          <div class='bubble-wrap'>
-            <div class="bubble">
-              {{name}}
+        {{#if type == 'audio' }}
+          <button data-file='{{file}}' data-speaker='{{speaker}}' class='button'>
+            <div class='avatar' style="background-image: url(assets/img/{{speaker}}.jpg)"></div>
+            <div class='bubble-wrap'>
+              <div class="bubble">
+                {{name}}
+              </div>
             </div>
+          </button>
+        {{/if}}
+        {{#if type == 'photo' }}
+          <div class='photo-message'>
+            <img src="assets/img/photo-messages/{{file}}.jpg" />
           </div>
-        </button>
+        {{/if}}
       {{/each}}
     </script>
 

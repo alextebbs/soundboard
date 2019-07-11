@@ -204,3 +204,15 @@ body {
     }
   }
 }
+
+.photo-message {
+  padding-left: 34px;
+  margin-left: 12px;
+
+  img {
+    max-width: 240px;
+    border-radius: 16px;
+    display: block;
+    margin-bottom: 3px;
+  }
+}
