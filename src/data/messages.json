@@ -6,7 +6,7 @@
       "speaker" : "aaron",
       "file" : "aaron/combo",
       "tags" : [ "aaron", "magic" ],
-      "key" : "C"
+      "key" : "q"
     },
     {
       "type" : "photo",
@@ -19,7 +19,7 @@
       "speaker" : "brady",
       "file" : "brady/hang",
       "tags" : [ "brady" ],
-      "key" : "C"
+      "key" : "w"
     },
     {
       "type" : "audio",
@@ -27,7 +27,7 @@
       "speaker" : "brady",
       "file" : "brady/hong",
       "tags" : [ "brady" ],
-      "key" : "C"
+      "key" : "e"
     },
     {
       "type" : "audio",
@@ -35,7 +35,7 @@
       "speaker" : "brady",
       "file" : "brady/honk",
       "tags" : [ "brady" ],
-      "key" : "C"
+      "key" : "r"
     },
     {
       "type" : "audio",
@@ -43,23 +43,31 @@
       "speaker" : "brady",
       "file" : "brady/hang-hong-honk",
       "tags" : [ "brady" ],
-      "key" : "C"
+      "key" : "t"
+    },
+    {
+      "type" : "audio",
+      "name" : "Honk",
+      "speaker" : "eli",
+      "file" : "eli/honk",
+      "tags" : [ "aaron" ],
+      "key" : "#"
     },
     {
       "type" : "audio",
       "name" : "Helium Ship 1",
       "speaker" : "Aaron",
-      "file" : "aron/helium-ship-1",
+      "file" : "aaron/helium-ship-1",
       "tags" : [ "aaron" ],
-      "key" : "C"
+      "key" : "y"
     },
     {
       "type" : "audio",
       "name" : "Helium Ship 2",
       "speaker" : "Aaron",
-      "file" : "aron/helium-ship-2",
+      "file" : "aaron/helium-ship-2",
       "tags" : [ "aaron" ],
-      "key" : "C"
+      "key" : "u"
     },
     {
       "type" : "audio",
@@ -67,7 +75,7 @@
       "speaker" : "aaron",
       "file" : "aaron/deformed-ship",
       "tags" : [ "aaron" ],
-      "key" : "C"
+      "key" : "i"
     },
     {
       "type" : "audio",
@@ -75,7 +83,7 @@
       "speaker" : "aaron",
       "file" : "aaron/massacre-girl",
       "tags" : [ "aaron" ],
-      "key" : "C"
+      "key" : "o"
     },
     {
       "type" : "audio",
@@ -83,7 +91,7 @@
       "speaker" : "david",
       "file" : "david/i-loved-em-all",
       "tags" : [ "david" ],
-      "key" : "C"
+      "key" : "p"
     },
     {
       "type" : "audio",
@@ -91,15 +99,15 @@
       "speaker" : "david",
       "file" : "david/loved-em-all-still-love-em",
       "tags" : [ "david" ],
-      "key" : "C"
+      "key" : "a"
     },
     {
       "type" : "audio",
-      "name" : "A tip can dream",
+      "name" : "Tips just want to be cozy",
       "speaker" : "tip",
       "file" : "a-tip-can-dream",
       "tags" : [ "tip" ],
-      "key" : "C"
+      "key" : "s"
     },
     {
       "type" : "photo",
@@ -112,7 +120,7 @@
       "speaker" : "david",
       "file" : "david/iced-mocha",
       "tags" : [ "david" ],
-      "key" : "C"
+      "key" : "d"
     },
     {
       "type" : "audio",
@@ -120,7 +128,7 @@
       "speaker" : "Levi",
       "file" : "levi/word",
       "tags" : [ "levi" ],
-      "key" : "B"
+      "key" : "f"
     },
     {
       "type" : "photo",
@@ -133,15 +141,15 @@
       "speaker" : "david",
       "file" : "shiplet-ian/where-are-we-at",
       "tags" : [ "david", "shiplet-ian" ],
-      "key" : "C"
+      "key" : "g"
     },
     {
       "type" : "audio",
       "name" : "4th step 2",
-      "speaker" : "Kid",
+      "speaker" : "kid",
       "file" : "shiplet-ian/shiplen-ian",
       "tags" : [ "david", "shiplet-ian" ],
-      "key" : "C"
+      "key" : "h"
     },
     {
       "type" : "audio",
@@ -149,31 +157,31 @@
       "speaker" : "david",
       "file" : "shiplet-ian/summer-shiplet",
       "tags" : [ "david", "shiplet-ian" ],
-      "key" : "C"
+      "key" : "i"
     },
     {
       "type" : "audio",
-      "name" : "God brought Shiplet ian into our lives.",
+      "name" : "God brought Shiplet ian into our lives",
       "speaker" : "brady",
       "file" : "shiplet-ian/shiplet-ian-blessed",
       "tags" : [ "brady", "shiplet-ian" ],
-      "key" : "C"
+      "key" : "j"
     },
     {
       "type" : "audio",
-      "name" : "Let's fucking get him.",
+      "name" : "Let's fucking get him",
       "speaker" : "david",
       "file" : "shiplet-ian/lets-fucking-get-him",
       "tags" : [ "david", "shiplet-ian" ],
-      "key" : "C"
+      "key" : "k"
     },
     {
       "type" : "audio",
-      "name" : "We're going to a meeting.",
+      "name" : "We're going to a meeting",
       "speaker" : "brady",
       "file" : "shiplet-ian/ian-were-going-to-a-meeting",
       "tags" : [ "brady", "shiplet-ian" ],
-      "key" : "C"
+      "key" : "l"
     },
     {
       "type" : "photo",
@@ -187,19 +195,19 @@
     },
     {
       "type" : "audio",
-      "name" : "MMm yeah.",
+      "name" : "MMm yeah",
       "speaker" : "ian",
       "file" : "ian/mmmm",
       "tags" : [ "ian" ],
-      "key" : "C"
+      "key" : "z"
     },
     {
       "type" : "audio",
-      "name" : "I love my boys.",
+      "name" : "I love my boys",
       "speaker" : "ian",
       "file" : "ian/i-love-my-boys",
       "tags" : [ "ian" ],
-      "key" : "C"
+      "key" : "x"
     },
     {
       "type" : "audio",
@@ -207,7 +215,7 @@
       "speaker" : "ian",
       "file" : "ian/excited-to-see-my-boys",
       "tags" : [ "ian" ],
-      "key" : "C"
+      "key" : "c"
     },
     {
       "type" : "audio",
@@ -215,7 +223,7 @@
       "speaker" : "ian",
       "file" : "ian/i-am-absolutely-sober",
       "tags" : [ "ian" ],
-      "key" : "C"
+      "key" : "v"
     },
     {
       "type" : "audio",
@@ -223,7 +231,7 @@
       "speaker" : "ian",
       "file" : "ian/i-am-a-real-man",
       "tags" : [ "ian" ],
-      "key" : "C"
+      "key" : "b"
     },
     {
       "type" : "audio",
@@ -231,7 +239,7 @@
       "speaker" : "ian",
       "file" : "ian/going-west",
       "tags" : [ "ian" ],
-      "key" : "C"
+      "key" : "n"
     },
     {
       "type" : "audio",
@@ -239,7 +247,7 @@
       "speaker" : "ian",
       "file" : "ian/seattle-bound",
       "tags" : [ "ian" ],
-      "key" : "C"
+      "key" : "m"
     },
     {
       "type" : "audio",
@@ -247,15 +255,15 @@
       "speaker" : "ian",
       "file" : "ian/rippers",
       "tags" : [ "ian" ],
-      "key" : "C"
+      "key" : ","
     },
     {
       "type" : "audio",
-      "name" : "I want the best for my boys.",
+      "name" : "I want the best for my boys",
       "speaker" : "aaron",
       "file" : "aaron/i-want-the-best-for-my-boys",
       "tags" : [ "aaron" ],
-      "key" : "C"
+      "key" : "."
     },
     {
       "type" : "audio",
@@ -263,7 +271,7 @@
       "speaker" : "aaron",
       "file" : "aaron/hygeine",
       "tags" : [ "brady" ],
-      "key" : "C"
+      "key" : "/"
     },
     {
       "type" : "audio",
@@ -271,7 +279,7 @@
       "speaker" : "eli",
       "file" : "eli/eli-laugh",
       "tags" : [ "eli" ],
-      "key" : "C"
+      "key" : ";"
     },
     {
       "type" : "audio",
@@ -279,7 +287,7 @@
       "speaker" : "aaron",
       "file" : "aaron/honk-laugh",
       "tags" : [ "aaron" ],
-      "key" : "C"
+      "key" : "'"
     },
     {
       "type" : "audio",
@@ -287,23 +295,23 @@
       "speaker" : "eli",
       "file" : "eli/play-some-magic",
       "tags" : [ "eli" ],
-      "key" : "C"
+      "key" : "["
     },
     {
       "type" : "audio",
-      "name" : "I'm pretty fucked off.",
+      "name" : "I'm pretty fucked off",
       "speaker" : "brady",
       "file" : "brady/pretty-fucked-off",
       "tags" : [ "brady" ],
-      "key" : "C"
+      "key" : "]"
     },
     {
       "type" : "audio",
-      "name" : "Fuck me.",
+      "name" : "Fuck me",
       "speaker" : "brady",
       "file" : "brady/fuck-me",
       "tags" : [ "brady" ],
-      "key" : "C"
+      "key" : "1"
     },
     {
       "type" : "audio",
@@ -311,7 +319,7 @@
       "speaker" : "brady",
       "file" : "brady/pussy-fuckin",
       "tags" : [ "brady" ],
-      "key" : "C"
+      "key" : "2"
     },
     {
       "type" : "audio",
@@ -319,7 +327,7 @@
       "speaker" : "brady",
       "file" : "brady/official-direction-1",
       "tags" : [ "brady" ],
-      "key" : "C"
+      "key" : "3"
     },
     {
       "type" : "audio",
@@ -327,7 +335,7 @@
       "speaker" : "brady",
       "file" : "brady/official-direction-2",
       "tags" : [ "brady" ],
-      "key" : "C"
+      "key" : "4"
     },
     {
       "type" : "text",
@@ -340,15 +348,15 @@
       "speaker" : "david",
       "file" : "david/tebbo",
       "tags" : [ "david" ],
-      "key" : "C"
+      "key" : "5"
     },
     {
       "type" : "audio",
-      "name" : "Really on a zoot.",
+      "name" : "Really on a zoot",
       "speaker" : "david",
       "file" : "david/really-on-a-zoot",
       "tags" : [ "david" ],
-      "key" : "C"
+      "key" : "6"
     },
     {
       "type" : "audio",
@@ -356,7 +364,7 @@
       "speaker" : "david",
       "file" : "david/i-can-see-the-light",
       "tags" : [ "david" ],
-      "key" : "C"
+      "key" : "7"
     },
     {
       "type" : "audio",
@@ -364,7 +372,7 @@
       "speaker" : "david",
       "file" : "david/scream",
       "tags" : [ "david" ],
-      "key" : "C"
+      "key" : "8"
     },
     {
       "type" : "photo",
@@ -377,7 +385,7 @@
       "speaker" : "patrick",
       "file" : "patrick/towards-the-kingdom",
       "tags" : [ "patrick" ],
-      "key" : "C"
+      "key" : "9"
     },
     {
       "type" : "photo",
@@ -390,7 +398,7 @@
       "speaker" : "eli",
       "file" : "eli/fresh-seb-in-the-chat",
       "tags" : [ "eli" ],
-      "key" : "C"
+      "key" : "0"
     },
     {
       "type" : "audio",
@@ -398,7 +406,7 @@
       "speaker" : "eli",
       "file" : "eli/yamaka",
       "tags" : [ "eli" ],
-      "key" : "C"
+      "key" : "-"
     },
     {
       "type" : "audio",
@@ -406,7 +414,7 @@
       "speaker" : "eli",
       "file" : "eli/shippin-it-eli",
       "tags" : [ "eli" ],
-      "key" : "C"
+      "key" : "="
     },
     {
       "type" : "audio",
@@ -414,7 +422,7 @@
       "speaker" : "eli",
       "file" : "eli/vintage-cubano",
       "tags" : [ "magic", "eli", "cubano" ],
-      "key" : "A"
+      "key" : "!"
     },
     {
       "type" : "audio",
@@ -422,6 +430,14 @@
       "speaker" : "aussie",
       "file" : "aussie/thank-you",
       "tags" : [ "aussie" ],
+      "key" : "@"
+    },
+    {
+      "type" : "audio",
+      "name" : "Poof",
+      "speaker" : "aaron",
+      "file" : "aaron/poof",
+      "tags" : [ "aaron" ],
       "key" : "C"
     }
   ]

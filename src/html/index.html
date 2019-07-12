@@ -36,7 +36,7 @@
     <script id="template" type="text/ractive">
       {{#each messages }}
         {{#if type == 'audio' }}
-          <button data-file='{{file}}' data-speaker='{{speaker}}' class='button'>
+          <button data-file='{{file}}' data-key='{{key}}' data-speaker='{{speaker}}' class='button'>
             <div class='avatar' style="background-image: url(assets/img/{{speaker}}.jpg)"></div>
             <div class='bubble-wrap'>
               <div class="bubble">

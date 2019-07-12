@@ -7,6 +7,7 @@
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, user-scalable=no" />
 <link rel="stylesheet" href="/assets/css/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/keypress/2.1.5/keypress.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/ractive"></script>
 
   </head>
@@ -43,7 +44,7 @@
     <script id="template" type="text/ractive">
       {{#each messages }}
         {{#if type == 'audio' }}
-          <button data-file='{{file}}' data-speaker='{{speaker}}' class='button'>
+          <button data-file='{{file}}' data-key='{{key}}' data-speaker='{{speaker}}' class='button'>
             <div class='avatar' style="background-image: url(assets/img/{{speaker}}.jpg)"></div>
             <div class='bubble-wrap'>
               <div class="bubble">
