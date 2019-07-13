@@ -72,7 +72,7 @@ body {
     margin-right: 12px;
     margin-bottom: 10px;
     padding-left: 34px;
-    width: 100%;
+    width: 90%;
 
     &.text {
       .bubble {
@@ -213,6 +213,22 @@ body {
       background-size: contain;
       z-index: 10;
     }
+
+    // AVATAR
+
+    // margin-bottom: 2px;
+
+    // .bubble-wrap:before, .bubble-wrap:after, .avatar {
+    //   display: none;
+    // }
+
+    // &.has-avatar {
+    //   margin-bottom: 10px;
+
+    //   .bubble-wrap:before, .bubble-wrap:after, .avatar {
+    //     display: block;
+    //   }
+    // }
   }
 }
 
@@ -225,5 +241,17 @@ body {
     border-radius: 16px;
     display: block;
     margin-bottom: 3px;
+  }
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  line-height: 18px;
+  color: #908f95;
+  margin-top: 24px;
+
+  strong {
+    font-weight: 500;
   }
 }

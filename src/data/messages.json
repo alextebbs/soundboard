@@ -6,6 +6,7 @@
       "speaker" : "aaron",
       "file" : "aaron/combo",
       "tags" : [ "aaron", "magic" ],
+      "avatar" : true,
       "key" : "q"
     },
     {
@@ -43,6 +44,7 @@
       "speaker" : "brady",
       "file" : "brady/hang-hong-honk",
       "tags" : [ "brady" ],
+      "avatar": true,
       "key" : "t"
     },
     {
@@ -51,12 +53,13 @@
       "speaker" : "eli",
       "file" : "eli/honk",
       "tags" : [ "aaron" ],
+      "avatar": true,
       "key" : "#"
     },
     {
       "type" : "audio",
       "name" : "Helium Ship 1",
-      "speaker" : "Aaron",
+      "speaker" : "aaron",
       "file" : "aaron/helium-ship-1",
       "tags" : [ "aaron" ],
       "key" : "y"
@@ -64,7 +67,7 @@
     {
       "type" : "audio",
       "name" : "Helium Ship 2",
-      "speaker" : "Aaron",
+      "speaker" : "aaron",
       "file" : "aaron/helium-ship-2",
       "tags" : [ "aaron" ],
       "key" : "u"
@@ -83,6 +86,7 @@
       "speaker" : "aaron",
       "file" : "aaron/massacre-girl",
       "tags" : [ "aaron" ],
+      "avatar": true,
       "key" : "o"
     },
     {
@@ -99,6 +103,7 @@
       "speaker" : "david",
       "file" : "david/loved-em-all-still-love-em",
       "tags" : [ "david" ],
+      "avatar": true,
       "key" : "a"
     },
     {
@@ -107,6 +112,7 @@
       "speaker" : "tip",
       "file" : "a-tip-can-dream",
       "tags" : [ "tip" ],
+      "avatar": true,
       "key" : "s"
     },
     {
@@ -120,6 +126,7 @@
       "speaker" : "david",
       "file" : "david/iced-mocha",
       "tags" : [ "david" ],
+      "avatar": true,
       "key" : "d"
     },
     {
@@ -128,6 +135,7 @@
       "speaker" : "Levi",
       "file" : "levi/word",
       "tags" : [ "levi" ],
+      "avatar": true,
       "key" : "f"
     },
     {
@@ -141,6 +149,7 @@
       "speaker" : "david",
       "file" : "shiplet-ian/where-are-we-at",
       "tags" : [ "david", "shiplet-ian" ],
+      "avatar": true,
       "key" : "g"
     },
     {
@@ -149,6 +158,7 @@
       "speaker" : "kid",
       "file" : "shiplet-ian/shiplen-ian",
       "tags" : [ "david", "shiplet-ian" ],
+      "avatar": true,
       "key" : "h"
     },
     {
@@ -157,6 +167,7 @@
       "speaker" : "david",
       "file" : "shiplet-ian/summer-shiplet",
       "tags" : [ "david", "shiplet-ian" ],
+      "avatar": true,
       "key" : "i"
     },
     {
@@ -165,6 +176,7 @@
       "speaker" : "brady",
       "file" : "shiplet-ian/shiplet-ian-blessed",
       "tags" : [ "brady", "shiplet-ian" ],
+      "avatar": true,
       "key" : "j"
     },
     {
@@ -173,6 +185,7 @@
       "speaker" : "david",
       "file" : "shiplet-ian/lets-fucking-get-him",
       "tags" : [ "david", "shiplet-ian" ],
+      "avatar": true,
       "key" : "k"
     },
     {
@@ -181,11 +194,12 @@
       "speaker" : "brady",
       "file" : "shiplet-ian/ian-were-going-to-a-meeting",
       "tags" : [ "brady", "shiplet-ian" ],
+      "avatar": true,
       "key" : "l"
     },
     {
       "type" : "photo",
-      "file" : "ian-collage",
+      "file" : "ian-2",
       "tags" : [ "ian" ]
     },
     {
@@ -255,6 +269,7 @@
       "speaker" : "ian",
       "file" : "ian/rippers",
       "tags" : [ "ian" ],
+      "avatar": true,
       "key" : ","
     },
     {
@@ -271,6 +286,7 @@
       "speaker" : "aaron",
       "file" : "aaron/hygeine",
       "tags" : [ "brady" ],
+      "avatar": true,
       "key" : "/"
     },
     {
@@ -279,6 +295,7 @@
       "speaker" : "eli",
       "file" : "eli/eli-laugh",
       "tags" : [ "eli" ],
+      "avatar": true,
       "key" : ";"
     },
     {
@@ -287,6 +304,7 @@
       "speaker" : "aaron",
       "file" : "aaron/honk-laugh",
       "tags" : [ "aaron" ],
+      "avatar": true,
       "key" : "'"
     },
     {
@@ -295,6 +313,7 @@
       "speaker" : "eli",
       "file" : "eli/play-some-magic",
       "tags" : [ "eli" ],
+      "avatar": true,
       "key" : "["
     },
     {
@@ -340,7 +359,13 @@
     {
       "type" : "text",
       "content" : "A show 👀 and tell 🗣 player 😈 played 🎮 it against ⚔️ me 👦🏼 trying to simply bar ⛓ me 👦🏼 from casting 🧙🏻‍♂️ past 🕗 in flames 🔥 and I had sideboarded 🏂 in a telemin 📞 performance 3💧💧🎻 to take 🙊 his emrakul 🦑 so he 😈 unknowingly 🙃 just blanked 😶 me 👦🏼 it was so f 🍆 brutal 🤧",
+      "avatar": true,
       "speaker" : "brady"
+    },
+    {
+      "type" : "photo",
+      "file" : "dacey",
+      "tags" : [ "david" ]
     },
     {
       "type" : "audio",
@@ -372,6 +397,7 @@
       "speaker" : "david",
       "file" : "david/scream",
       "tags" : [ "david" ],
+      "avatar": true,
       "key" : "8"
     },
     {
@@ -385,6 +411,7 @@
       "speaker" : "patrick",
       "file" : "patrick/towards-the-kingdom",
       "tags" : [ "patrick" ],
+      "avatar": true,
       "key" : "9"
     },
     {
@@ -422,6 +449,7 @@
       "speaker" : "eli",
       "file" : "eli/vintage-cubano",
       "tags" : [ "magic", "eli", "cubano" ],
+      "avatar": true,
       "key" : "!"
     },
     {
@@ -430,6 +458,7 @@
       "speaker" : "aussie",
       "file" : "aussie/thank-you",
       "tags" : [ "aussie" ],
+      "avatar": true,
       "key" : "@"
     },
     {
@@ -438,7 +467,13 @@
       "speaker" : "aaron",
       "file" : "aaron/poof",
       "tags" : [ "aaron" ],
+      "avatar": true,
       "key" : "C"
+    },
+    {
+      "type" : "photo",
+      "file" : "aimless",
+      "tags" : [ "eli" ]
     }
   ]
 }

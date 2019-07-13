@@ -32,6 +32,9 @@
         <div class='avatar-wrap'>
           <div class='avatar' style='background-image: url("/assets/img/eli.jpg")'></div>
         </div>
+        <div class='avatar-wrap'>
+          <div class='avatar' style='background-image: url("/assets/img/aussie.jpg")'></div>
+        </div>
       </div>
       <div class='header-text'>For The Boys</div>
     </div>
@@ -44,7 +47,7 @@
     <script id="template" type="text/ractive">
       {{#each messages }}
         {{#if type == 'audio' }}
-          <button data-file='{{file}}' data-key='{{key}}' data-speaker='{{speaker}}' class='button'>
+          <button data-file='{{file}}' data-key='{{key}}' data-speaker='{{speaker}}' class='button {{#if avatar == true }} has-avatar {{/if}}'>
             <div class='avatar' style="background-image: url(assets/img/{{speaker}}.jpg)"></div>
             <div class='bubble-wrap'>
               <div class="bubble">
@@ -69,6 +72,10 @@
           </div>
         {{/if}}
       {{/each}}
+      <div class="footer">
+        <strong>Christopher</strong> kept an audio message from you.<br />
+        <strong>Today</strong> <span class='time'>12:34PM</span>
+      </div>
     </script>
 
     <script src="/assets/js/scripts.js"></script>
