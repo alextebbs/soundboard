@@ -2,6 +2,96 @@
   "messages": [
     {
       "type" : "audio",
+      "name" : "Tebbo",
+      "speaker" : "tub",
+      "file" : "tub/tebbo",
+      "tags" : [ "aaron", "magic" ],
+      "avatar" : true,
+      "key" : "z"
+    },
+    {
+      "type" : "audio",
+      "name" : "Tebbo 2",
+      "speaker" : "tub",
+      "file" : "tub/tebbo-3",
+      "tags" : [ "aaron", "magic" ],
+      "avatar" : true,
+      "key" : "x"
+    },
+    {
+      "type" : "audio",
+      "name" : "There can be only one Tebbo",
+      "speaker" : "tub",
+      "file" : "tub/tebbo-2",
+      "tags" : [ "aaron", "magic" ],
+      "avatar" : true,
+      "key" : "c"
+    },
+    {
+      "type" : "audio",
+      "name" : "Doctor Joe",
+      "speaker" : "tub",
+      "file" : "tub/doctor",
+      "tags" : [ "aaron", "magic" ],
+      "avatar" : true,
+      "key" : "v"
+    },
+    {
+      "type" : "audio",
+      "name" : "Legendary Snow Trinket",
+      "speaker" : "tub",
+      "file" : "tub/doctor-2",
+      "tags" : [ "aaron", "magic" ],
+      "avatar" : true,
+      "key" : "b"
+    },
+    {
+      "type" : "audio",
+      "name" : "Lembly",
+      "speaker" : "tub",
+      "file" : "tub/lembo",
+      "tags" : [ "aaron", "magic" ],
+      "avatar" : true,
+      "key" : "n"
+    },
+    {
+      "type" : "audio",
+      "name" : "Donahue",
+      "speaker" : "tub",
+      "file" : "tub/brady",
+      "tags" : [ "aaron", "magic" ],
+      "avatar" : true,
+      "key" : "m"
+    },
+    {
+      "type" : "audio",
+      "name" : "Sheet",
+      "speaker" : "tub",
+      "file" : "tub/sheet",
+      "tags" : [ "aaron", "magic" ],
+      "avatar" : true,
+      "key" : ","
+    },
+    {
+      "type" : "audio",
+      "name" : "PT PH PH",
+      "speaker" : "tub",
+      "file" : "tub/pt",
+      "tags" : [ "aaron", "magic" ],
+      "avatar" : true,
+      "key" : "."
+    },
+    {
+      "type" : "audio",
+      "name" : "Combo",
+      "speaker" : "aaron",
+      "file" : "aaron/combo",
+      "tags" : [ "aaron", "magic" ],
+      "avatar" : true,
+      "key" : "q"
+    },
+    {
+      "type" : "audio",
       "name" : "Combo",
       "speaker" : "aaron",
       "file" : "aaron/combo",
@@ -132,7 +222,7 @@
     {
       "type" : "audio",
       "name" : "Word",
-      "speaker" : "Levi",
+      "speaker" : "levi",
       "file" : "levi/word",
       "tags" : [ "levi" ],
       "avatar": true,
