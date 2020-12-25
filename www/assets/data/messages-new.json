@@ -1,0 +1,569 @@
+{
+  "messages": [
+    {
+      "type" : "audio",
+      "name" : "Tebbo",
+      "speaker" : "tub",
+      "file" : "tub/tebbo",
+      "tags" : [ "aaron", "magic" ],
+      "avatar" : true,
+      "key" : "z"
+    },
+    {
+      "type" : "audio",
+      "name" : "Tebbo 2",
+      "speaker" : "tub",
+      "file" : "tub/tebbo-3",
+      "tags" : [ "aaron", "magic" ],
+      "avatar" : true,
+      "key" : "x"
+    },
+    {
+      "type" : "audio",
+      "name" : "There can be only one Tebbo",
+      "speaker" : "tub",
+      "file" : "tub/tebbo-2",
+      "tags" : [ "aaron", "magic" ],
+      "avatar" : true,
+      "key" : "c"
+    },
+    {
+      "type" : "audio",
+      "name" : "Doctor Joe",
+      "speaker" : "tub",
+      "file" : "tub/doctor",
+      "tags" : [ "aaron", "magic" ],
+      "avatar" : true,
+      "key" : "v"
+    },
+    {
+      "type" : "audio",
+      "name" : "Legendary Snow Trinket",
+      "speaker" : "tub",
+      "file" : "tub/doctor-2",
+      "tags" : [ "aaron", "magic" ],
+      "avatar" : true,
+      "key" : "b"
+    },
+    {
+      "type" : "audio",
+      "name" : "Lembly",
+      "speaker" : "tub",
+      "file" : "tub/lembo",
+      "tags" : [ "aaron", "magic" ],
+      "avatar" : true,
+      "key" : "n"
+    },
+    {
+      "type" : "audio",
+      "name" : "Donahue",
+      "speaker" : "tub",
+      "file" : "tub/brady",
+      "tags" : [ "aaron", "magic" ],
+      "avatar" : true,
+      "key" : "m"
+    },
+    {
+      "type" : "audio",
+      "name" : "Sheet",
+      "speaker" : "tub",
+      "file" : "tub/sheet",
+      "tags" : [ "aaron", "magic" ],
+      "avatar" : true,
+      "key" : ","
+    },
+    {
+      "type" : "audio",
+      "name" : "PT PH PH",
+      "speaker" : "tub",
+      "file" : "tub/pt",
+      "tags" : [ "aaron", "magic" ],
+      "avatar" : true,
+      "key" : "."
+    },
+    {
+      "type" : "audio",
+      "name" : "Combo",
+      "speaker" : "aaron",
+      "file" : "aaron/combo",
+      "tags" : [ "aaron", "magic" ],
+      "avatar" : true,
+      "key" : "q"
+    },
+    {
+      "type" : "audio",
+      "name" : "Combo",
+      "speaker" : "aaron",
+      "file" : "aaron/combo",
+      "tags" : [ "aaron", "magic" ],
+      "avatar" : true,
+      "key" : "q"
+    },
+    {
+      "type" : "photo",
+      "file" : "honk-prayer",
+      "tags" : [ "aaron" ]
+    },
+    {
+      "type" : "audio",
+      "name" : "Hang",
+      "speaker" : "brady",
+      "file" : "brady/hang",
+      "tags" : [ "brady" ],
+      "key" : "w"
+    },
+    {
+      "type" : "audio",
+      "name" : "Hong",
+      "speaker" : "brady",
+      "file" : "brady/hong",
+      "tags" : [ "brady" ],
+      "key" : "e"
+    },
+    {
+      "type" : "audio",
+      "name" : "Honk",
+      "speaker" : "brady",
+      "file" : "brady/honk",
+      "tags" : [ "brady" ],
+      "key" : "r"
+    },
+    {
+      "type" : "audio",
+      "name" : "Hang Hong Honk",
+      "speaker" : "brady",
+      "file" : "brady/hang-hong-honk",
+      "tags" : [ "brady" ],
+      "avatar": true,
+      "key" : "t"
+    },
+    {
+      "type" : "audio",
+      "name" : "Honk",
+      "speaker" : "eli",
+      "file" : "eli/honk",
+      "tags" : [ "aaron" ],
+      "avatar": true,
+      "key" : "#"
+    },
+    {
+      "type" : "audio",
+      "name" : "Helium Ship 1",
+      "speaker" : "aaron",
+      "file" : "aaron/helium-ship-1",
+      "tags" : [ "aaron" ],
+      "key" : "y"
+    },
+    {
+      "type" : "audio",
+      "name" : "Helium Ship 2",
+      "speaker" : "aaron",
+      "file" : "aaron/helium-ship-2",
+      "tags" : [ "aaron" ],
+      "key" : "u"
+    },
+    {
+      "type" : "audio",
+      "name" : "Deformed Ship",
+      "speaker" : "aaron",
+      "file" : "aaron/deformed-ship",
+      "tags" : [ "aaron" ],
+      "key" : "i"
+    },
+    {
+      "type" : "audio",
+      "name" : "Massacre Girl",
+      "speaker" : "aaron",
+      "file" : "aaron/massacre-girl",
+      "tags" : [ "aaron" ],
+      "avatar": true,
+      "key" : "o"
+    },
+    {
+      "type" : "audio",
+      "name" : "Loved them all 1",
+      "speaker" : "david",
+      "file" : "david/i-loved-em-all",
+      "tags" : [ "david" ],
+      "key" : "p"
+    },
+    {
+      "type" : "audio",
+      "name" : "Loved them all 2",
+      "speaker" : "david",
+      "file" : "david/loved-em-all-still-love-em",
+      "tags" : [ "david" ],
+      "avatar": true,
+      "key" : "a"
+    },
+    {
+      "type" : "audio",
+      "name" : "Tips just want to be cozy",
+      "speaker" : "tip",
+      "file" : "a-tip-can-dream",
+      "tags" : [ "tip" ],
+      "avatar": true,
+      "key" : "s"
+    },
+    {
+      "type" : "photo",
+      "file" : "iced-mocha",
+      "tags" : [ "levi" ]
+    },
+    {
+      "type" : "audio",
+      "name" : "Iced mocha",
+      "speaker" : "david",
+      "file" : "david/iced-mocha",
+      "tags" : [ "david" ],
+      "avatar": true,
+      "key" : "d"
+    },
+    {
+      "type" : "audio",
+      "name" : "Word",
+      "speaker" : "levi",
+      "file" : "levi/word",
+      "tags" : [ "levi" ],
+      "avatar": true,
+      "key" : "f"
+    },
+    {
+      "type" : "photo",
+      "file" : "shiplet-ian-1",
+      "tags" : [ "shiplet-ian" ]
+    },
+    {
+      "type" : "audio",
+      "name" : "Where are we at with the 4th step?",
+      "speaker" : "david",
+      "file" : "shiplet-ian/where-are-we-at",
+      "tags" : [ "david", "shiplet-ian" ],
+      "avatar": true,
+      "key" : "g"
+    },
+    {
+      "type" : "audio",
+      "name" : "4th step 2",
+      "speaker" : "kid",
+      "file" : "shiplet-ian/shiplen-ian",
+      "tags" : [ "david", "shiplet-ian" ],
+      "avatar": true,
+      "key" : "h"
+    },
+    {
+      "type" : "audio",
+      "name" : "Summer Shiplet",
+      "speaker" : "david",
+      "file" : "shiplet-ian/summer-shiplet",
+      "tags" : [ "david", "shiplet-ian" ],
+      "avatar": true,
+      "key" : "i"
+    },
+    {
+      "type" : "audio",
+      "name" : "God brought Shiplet ian into our lives",
+      "speaker" : "brady",
+      "file" : "shiplet-ian/shiplet-ian-blessed",
+      "tags" : [ "brady", "shiplet-ian" ],
+      "avatar": true,
+      "key" : "j"
+    },
+    {
+      "type" : "audio",
+      "name" : "Let's fucking get him",
+      "speaker" : "david",
+      "file" : "shiplet-ian/lets-fucking-get-him",
+      "tags" : [ "david", "shiplet-ian" ],
+      "avatar": true,
+      "key" : "k"
+    },
+    {
+      "type" : "audio",
+      "name" : "We're going to a meeting",
+      "speaker" : "brady",
+      "file" : "shiplet-ian/ian-were-going-to-a-meeting",
+      "tags" : [ "brady", "shiplet-ian" ],
+      "avatar": true,
+      "key" : "l"
+    },
+    {
+      "type" : "photo",
+      "file" : "ian-2",
+      "tags" : [ "ian" ]
+    },
+    {
+      "type" : "text",
+      "content" : "In that moment those two women were Christopher for me. Taking me in as a stranger, immediately accepting me and loving me. Listening to me, sharing with me. Incredible.",
+      "speaker" : "ian"
+    },
+    {
+      "type" : "audio",
+      "name" : "MMm yeah",
+      "speaker" : "ian",
+      "file" : "ian/mmmm",
+      "tags" : [ "ian" ],
+      "key" : "z"
+    },
+    {
+      "type" : "audio",
+      "name" : "I love my boys",
+      "speaker" : "ian",
+      "file" : "ian/i-love-my-boys",
+      "tags" : [ "ian" ],
+      "key" : "x"
+    },
+    {
+      "type" : "audio",
+      "name" : "Really excited",
+      "speaker" : "ian",
+      "file" : "ian/excited-to-see-my-boys",
+      "tags" : [ "ian" ],
+      "key" : "c"
+    },
+    {
+      "type" : "audio",
+      "name" : "Absolutely sober",
+      "speaker" : "ian",
+      "file" : "ian/i-am-absolutely-sober",
+      "tags" : [ "ian" ],
+      "key" : "v"
+    },
+    {
+      "type" : "audio",
+      "name" : "Real man",
+      "speaker" : "ian",
+      "file" : "ian/i-am-a-real-man",
+      "tags" : [ "ian" ],
+      "key" : "b"
+    },
+    {
+      "type" : "audio",
+      "name" : "Going west",
+      "speaker" : "ian",
+      "file" : "ian/going-west",
+      "tags" : [ "ian" ],
+      "key" : "n"
+    },
+    {
+      "type" : "audio",
+      "name" : "Seattle bound",
+      "speaker" : "ian",
+      "file" : "ian/seattle-bound",
+      "tags" : [ "ian" ],
+      "key" : "m"
+    },
+    {
+      "type" : "audio",
+      "name" : "Rippers",
+      "speaker" : "ian",
+      "file" : "ian/rippers",
+      "tags" : [ "ian" ],
+      "avatar": true,
+      "key" : ","
+    },
+    {
+      "type" : "audio",
+      "name" : "I want the best for my boys",
+      "speaker" : "aaron",
+      "file" : "aaron/i-want-the-best-for-my-boys",
+      "tags" : [ "aaron" ],
+      "key" : "."
+    },
+    {
+      "type" : "audio",
+      "name" : "Hygeine",
+      "speaker" : "aaron",
+      "file" : "aaron/hygeine",
+      "tags" : [ "brady" ],
+      "avatar": true,
+      "key" : "/"
+    },
+    {
+      "type" : "audio",
+      "name" : "Demonic laughter",
+      "speaker" : "eli",
+      "file" : "eli/eli-laugh",
+      "tags" : [ "eli" ],
+      "avatar": true,
+      "key" : ";"
+    },
+    {
+      "type" : "audio",
+      "name" : "Honk Laugh",
+      "speaker" : "aaron",
+      "file" : "aaron/honk-laugh",
+      "tags" : [ "aaron" ],
+      "avatar": true,
+      "key" : "'"
+    },
+    {
+      "type" : "audio",
+      "name" : "Magic laugh",
+      "speaker" : "eli",
+      "file" : "eli/play-some-magic",
+      "tags" : [ "eli" ],
+      "avatar": true,
+      "key" : "["
+    },
+    {
+      "type" : "audio",
+      "name" : "I'm pretty fucked off",
+      "speaker" : "brady",
+      "file" : "brady/pretty-fucked-off",
+      "tags" : [ "brady" ],
+      "key" : "]"
+    },
+    {
+      "type" : "audio",
+      "name" : "Fuck me",
+      "speaker" : "brady",
+      "file" : "brady/fuck-me",
+      "tags" : [ "brady" ],
+      "key" : "1"
+    },
+    {
+      "type" : "audio",
+      "name" : "Good ol' fashioned",
+      "speaker" : "brady",
+      "file" : "brady/pussy-fuckin",
+      "tags" : [ "brady" ],
+      "key" : "2"
+    },
+    {
+      "type" : "audio",
+      "name" : "Official direction 1",
+      "speaker" : "brady",
+      "file" : "brady/official-direction-1",
+      "tags" : [ "brady" ],
+      "key" : "3"
+    },
+    {
+      "type" : "audio",
+      "name" : "Official direction 2",
+      "speaker" : "brady",
+      "file" : "brady/official-direction-2",
+      "tags" : [ "brady" ],
+      "key" : "4"
+    },
+    {
+      "type" : "text",
+      "content" : "A show 👀 and tell 🗣 player 😈 played 🎮 it against ⚔️ me 👦🏼 trying to simply bar ⛓ me 👦🏼 from casting 🧙🏻‍♂️ past 🕗 in flames 🔥 and I had sideboarded 🏂 in a telemin 📞 performance 3💧💧🎻 to take 🙊 his emrakul 🦑 so he 😈 unknowingly 🙃 just blanked 😶 me 👦🏼 it was so f 🍆 brutal 🤧",
+      "avatar": true,
+      "speaker" : "brady"
+    },
+    {
+      "type" : "photo",
+      "file" : "dacey",
+      "tags" : [ "david" ]
+    },
+    {
+      "type" : "audio",
+      "name" : "Tebbo!",
+      "speaker" : "david",
+      "file" : "david/tebbo",
+      "tags" : [ "david" ],
+      "key" : "5"
+    },
+    {
+      "type" : "audio",
+      "name" : "Really on a zoot",
+      "speaker" : "david",
+      "file" : "david/really-on-a-zoot",
+      "tags" : [ "david" ],
+      "key" : "6"
+    },
+    {
+      "type" : "audio",
+      "name" : "I can see the light",
+      "speaker" : "david",
+      "file" : "david/i-can-see-the-light",
+      "tags" : [ "david" ],
+      "key" : "7"
+    },
+    {
+      "type" : "audio",
+      "name" : "Scream",
+      "speaker" : "david",
+      "file" : "david/scream",
+      "tags" : [ "david" ],
+      "avatar": true,
+      "key" : "8"
+    },
+    {
+      "type" : "photo",
+      "file" : "casino",
+      "tags" : [ "patrick" ]
+    },
+    {
+      "type" : "audio",
+      "name" : "Towards the kingdom",
+      "speaker" : "patrick",
+      "file" : "patrick/towards-the-kingdom",
+      "tags" : [ "patrick" ],
+      "avatar": true,
+      "key" : "9"
+    },
+    {
+      "type" : "photo",
+      "file" : "eli-relaxed",
+      "tags" : [ "eli" ]
+    },
+    {
+      "type" : "audio",
+      "name" : "Fresh Sebs",
+      "speaker" : "eli",
+      "file" : "eli/fresh-seb-in-the-chat",
+      "tags" : [ "eli" ],
+      "key" : "0"
+    },
+    {
+      "type" : "audio",
+      "name" : "Yarmulke",
+      "speaker" : "eli",
+      "file" : "eli/yamaka",
+      "tags" : [ "eli" ],
+      "key" : "-"
+    },
+    {
+      "type" : "audio",
+      "name" : "Ship",
+      "speaker" : "eli",
+      "file" : "eli/shippin-it-eli",
+      "tags" : [ "eli" ],
+      "key" : "="
+    },
+    {
+      "type" : "audio",
+      "name" : "Vintage Cubano",
+      "speaker" : "eli",
+      "file" : "eli/vintage-cubano",
+      "tags" : [ "magic", "eli", "cubano" ],
+      "avatar": true,
+      "key" : "!"
+    },
+    {
+      "type" : "audio",
+      "name" : "Thank you",
+      "speaker" : "aussie",
+      "file" : "aussie/thank-you",
+      "tags" : [ "aussie" ],
+      "avatar": true,
+      "key" : "@"
+    },
+    {
+      "type" : "audio",
+      "name" : "Poof",
+      "speaker" : "aaron",
+      "file" : "aaron/poof",
+      "tags" : [ "aaron" ],
+      "avatar": true,
+      "key" : "C"
+    },
+    {
+      "type" : "photo",
+      "file" : "aimless",
+      "tags" : [ "eli" ]
+    }
+  ]
+}
